@@ -7,7 +7,7 @@
     <meta content='width=device-width' name='viewport' />
     <link type="text/css" media="screen" href="register.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="preload">
     <div id="content-wrapper">
       <div id="top-menu">
         <h1>MyCompany Co.</h1>
@@ -60,5 +60,12 @@
 
       </div>
     </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript">
+    $("window").load(function() {
+      $("body").removeClass("preload");
+    });
+    </script>
   </body>
 </html>

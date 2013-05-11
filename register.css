@@ -4,6 +4,10 @@
 
 body {
   color: #333;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -77,6 +81,14 @@ ul, ol {
 #top-menu-choices a:hover {
   color: #fff;
   text-decoration: underline;
+}
+
+.preload * {
+  -webkit-transition: opacity 0.3s ease-in !important;
+  -moz-transition: opacity 0.3s ease-in !important;
+  -ms-transition: opacity 0.3s ease-in !important;
+  -o-transition: opacity 0.3s ease-in !important;
+  transition: opacity 0.3s ease-in !important;
 }
 
 .content {
