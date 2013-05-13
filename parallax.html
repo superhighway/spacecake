@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Parallax</title>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta content='width=device-width' name='viewport' />
+    <link type="text/css" media="screen" href="parallax.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="top-menu">
+      <h1>HooplaYay! Co.</h1>
+      <span>All stuff here is made up. <a href="https://github.com/catcyborg/spacecake/blob/gh-pages/parallax.html">I'm trying out</a> <a target="_blank" href="http://markdalgleish.com/projects/stellar.js/">Stellar.js</a></span>
+    </div>
+
+    <div class="ctas">
+      <div class="cta cta-problem" data-stellar-background-ratio="0.5">
+        <div class="cta-content">
+          <h2>Got Problem?</h2>
+          <p>No worries! Scroll down to find a solution :)</p>
+        </div>
+      </div>
+
+      <div class="cta cta-solution" data-stellar-background-ratio="0.5">
+        <div class="cta-content">
+          <p>Meet the most exciting service that helps you always</p>
+          <h1>HooplaYay! Co.</h1>
+        </div>
+      </div>
+
+      <div class="cta cta-experience" data-stellar-background-ratio="0.5">
+        <div class="cta-content">
+          <p>We're experienced in disecting your problems into pieces</p>
+          <h2>and solve them for the current context only.</h2>
+        </div>
+      </div>
+
+      <div class="cta cta-form" data-stellar-background-ratio="0.5">
+        <div class="cta-content">
+          <p>The rest is up to you. Get in touch with us now.</p>
+          <form>
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+            <input type="submit" value="Let's keep in touch" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="jquery.stellar.min.js"></script>
+    <script>
+		$(function(){
+			$.stellar({
+				horizontalScrolling: false,
+				verticalOffset: 40
+			});
+		});
+		</script>
+  </body>
+</html>

@@ -1,0 +1,112 @@
+* { margin: 0; padding: 0; }
+body, input {
+  color: #222;
+  margin: 0; padding: 0;
+  font: 26px/1.6em Palatino, "Bitstream Charter", "Book Antiqua", "Palatino Linotype", serif;
+}
+
+a {
+  color: #79c;
+  text-decoration: none;
+  border-bottom: 1px dashed #fff;
+}
+
+a:hover {
+  color: #c34;
+}
+
+input {
+  border-radius: 3px;
+  padding: 0.2em 0.5em;
+  border: 1px solid #ccc;
+  background: #eee;
+  box-shadow: 0 1px 8px #000, inset 0 1px 5px #555;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  color: #c34;
+  box-shadow: 0 1px 8px #000;
+  background: #222;
+  border: 1px solid #333;
+}
+
+body {
+  color: #fff;
+  text-shadow: 0 1px 5px #000;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#top-menu {
+  padding: 0.8em 2em;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: #333;
+}
+
+#top-menu h1 {
+  display: inline;
+  margin-right: 1em;
+}
+
+.ctas {
+  margin-top: 3.2em;
+}
+
+.cta {
+  height: 600px;
+}
+
+.cta-content {
+  margin: 0 auto;
+}
+
+.cta-problem {
+  text-align: center;
+  background: #eee url('./parallax-images/1.jpg') no-repeat center top;
+}
+
+.cta-problem .cta-content {
+  padding-top: 4em;
+}
+
+.cta-problem h2 {
+  font-size: 3em;
+}
+
+.cta-solution {
+  background: #555 url('./parallax-images/2.jpg') no-repeat center top;
+}
+
+.cta-solution h1 {
+  margin-top: 0.3em;
+}
+
+.cta-solution .cta-content {
+  text-align: right;
+  padding-top: 2em;
+  width: 900px;
+}
+
+.cta-experience {
+  background: #aaa url('./parallax-images/3.jpg') no-repeat center top;
+}
+
+.cta-experience .cta-content {
+  padding-top: 2em;
+  width: 800px;
+}
+
+.cta-form {
+  background: #ddd url('./parallax-images/4.jpg') no-repeat center top;
+}
+
+.cta-form .cta-content {
+  padding-top: 5em;
+  width: 930px;
+}
