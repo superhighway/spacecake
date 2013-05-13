@@ -12,7 +12,7 @@ body {
 }
 
 body, input {
-  font: 20px/1.6em "Gill Sans", Calibri, Cabin, Helvetica, Arial, sans-serif;
+  font: 20px/1.6em "Gill Sans", "Gill Sans MT", Calibri, Cabin, Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -121,12 +121,12 @@ ul, ol {
 
 @media only screen and (max-width: 1200px) {
   body, input {
-    font: 18px/1.6em "Gill Sans", Calibri, Cabin, Helvetica, Arial, sans-serif;
+    font: 18px/1.6em "Gill Sans", "Gill Sans MT", Calibri, Cabin, Helvetica, Arial, sans-serif;
   }
 }
 
 @media only screen and (max-width: 1100px) {
   body, input {
-    font: 16px/1.6em "Gill Sans", Calibri, Cabin, Helvetica, Arial, sans-serif;
+    font: 16px/1.6em "Gill Sans", "Gill Sans MT", Calibri, Cabin, Helvetica, Arial, sans-serif;
   }
 }
